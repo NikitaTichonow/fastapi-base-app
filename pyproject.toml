@@ -7,3 +7,4 @@ fastapi = "^0.115.12"
 uvicorn = {extras = ["standart"], version = "^0.34.0"}
 pydantic = {extras = ["email"], version = "^2.10.6"}
 pydantic-settings = "^2.8.1"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.39"}
